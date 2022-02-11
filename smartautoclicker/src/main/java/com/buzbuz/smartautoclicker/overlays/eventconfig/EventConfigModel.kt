@@ -336,6 +336,10 @@ sealed class OperatorChoice(title: Int, iconId: Int?): DialogChoice(title, iconI
     object And : OperatorChoice(R.string.condition_operator_and_desc, R.drawable.ic_all_conditions)
     /** OR choice. */
     object Or : OperatorChoice(R.string.condition_operator_or_desc, R.drawable.ic_one_condition)
+    /** NOT choice. */
+    object Not : OperatorChoice(R.string.condition_operator_not_desc, R.drawable.ic_not_condition) {
+
+    }
 }
 
 /** Choices for the action creation dialog. */
