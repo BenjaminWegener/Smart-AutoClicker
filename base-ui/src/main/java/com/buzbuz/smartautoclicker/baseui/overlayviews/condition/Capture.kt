@@ -207,4 +207,4 @@ internal class Capture(
 /** The default minimum zoom value. */
 private const val DEFAULT_ZOOM_MINIMUM = 0.8f
 /** The default maximum zoom value. */
-private const val DEFAULT_ZOOM_MAXIMUM = 3f
+private const val DEFAULT_ZOOM_MAXIMUM = 100f
