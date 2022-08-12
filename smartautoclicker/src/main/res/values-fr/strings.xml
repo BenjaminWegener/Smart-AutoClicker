@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; If not, see <http://www.gnu.org/licenses/>.
 -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="activity_scenario_title">Scenarios</string>
     <string name="menu_search_item_title">Rechercher</string>
     <string name="no_scenarios">"Aucun scenario.\nAppuyez sur le button \'+\' pour en créer un."</string>
-    <plurals name="scenario_sub_text">
+    <plurals name="scenario_sub_text" tools:ignore="MissingQuantity">
         <item quantity="one">%d évènement</item>
         <item quantity="other">%d évènements</item>
     </plurals>
@@ -118,5 +118,7 @@
     <string name="dialog_condition_new_title">Nouvelle condition</string>
     <string name="dialog_condition_new_create">Créer</string>
     <string name="dialog_condition_new_copy">Copier depuis une autre condition</string>
+    <string name="condition_operator_not">Aucune condition</string>
+    <string name="condition_operator_not_desc">Aucune condition n\'est remplie (p. ex. en cas de pixels modifiés)</string>
 
 </resources>
